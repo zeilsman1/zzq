@@ -9,7 +9,7 @@ const io=new Server(httpServer);
 
 
 const port = process.env.PORT || 3000;
-
+console.log(port)
 io.on("connection", (socket) => {
     console.log(socket.id)
 });
